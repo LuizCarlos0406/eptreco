@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0; 
+    position: relative; 
+}
+
+.top-bar {
+    position: absolute; 
+    top: -50px; 
+    left: 0; 
+    width: 100%; 
+    height: 100px; 
+    background-color: rgba(53, 129, 243, 0.945); 
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    position: relative; /* Adicionando posição relativa */
+    margin-top: 50px; 
+}
+
+.button-caption {
+    position: absolute;
+    top: -100px; /* Ajuste para mover a caixa de texto para cima */
+    left: 50%; /* Centralizando horizontalmente */
+    transform: translateX(-50%); /* Centralizando horizontalmente */
+    font-size: 18px;
+    color: #fff;
+}
+
+button {
+    width:350px;
+    height: 350px;
+    font-size: 24px;
+    cursor:pointer;
+    border-radius:40%;
+    background-color: #f0f0f0;
+    margin: 10px;
+    margin-top: 200px; 
+    background-size: cover;
+    position: relative; /* Adicionando posição relativa */
+}
+
+button#botao1 {
+    background-image: url('https://i.pinimg.com/736x/55/4c/15/554c15a22ecc1ce12a017a65ef0bd401.jpg');
+}
+
+button#botao2 {
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/11716181-ilustracao-de-desenho-animado-de-carro-vetor.jpg'); 
+}
+
+button#botao3 {
+    background-image: url('https://img.freepik.com/vetores-premium/solicitar-ilustracoes-vetoriais-de-desenhos-animados-isoladas-do-historico-escolar-do-ensino-medio_107173-21743.jpg'); 
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+
+
+
+
